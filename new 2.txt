@@ -1,0 +1,41 @@
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.ADMIN.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+			    'pass' => data::prepareString(session::cryptPassword($demande->pass)),
+	public static function cryptPassword($password)
+			$encryptedPassword = self::cryptPassword($password);
+    if(!$db->existe('membres','pass="'.session::cryptPassword($ancienPass).'" AND id='.$persoReal->id))
+		$db->update('membres', array('pass'=>'"'.session::cryptPassword($newPass).'"'), 'id='.$persoReal->id);
+			$tab['pass'] = '"'.session::cryptPassword($_POST['new_pass']).'"';
+			$pass = session::cryptPassword($pass);
+	if($db->existe('membres','grade_site > '.ADMIN.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+			$db->update('membres', array('grade_site' => 0, 'pass' => '"'.session::cryptPassword($params['password']).'"', 'id_pj' => 'null'), 'id = '.$this->perso->id);
+    if(!$db->existe('membres','pass="'.session::cryptPassword($ancienPass).'" AND id='.$persoReal->id))
+		$db->update('membres', array('pass'=>'"'.session::cryptPassword($newPass).'"'), 'id='.$persoReal->id);
+			$tab['pass'] = '"'.session::cryptPassword($_POST['new_pass']).'"';
+    if(!$db->existe('membres','pass="'.session::cryptPassword($ancienPass).'" AND id='.$persoReal->id))
+		$db->update('membres', array('pass'=>'"'.session::cryptPassword($newPass).'"'), 'id='.$persoReal->id);
+    if(!$db->existe('membres','pass="'.session::cryptPassword($ancienPass).'" AND id='.$persoReal->id))
+		$db->update('membres', array('pass'=>'"'.session::cryptPassword($newPass).'"'), 'id='.$persoReal->id);
+			$this->pass = session::cryptPassword($data->pass);
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->update('membres', array('pass'=>'"'.session::cryptPassword($pass).'"'),'email= "'.htmlspecialchars($email).'" AND nom="'.htmlspecialchars($_POST['login']).'"'))
+			$this->pass = session::cryptPassword($data->pass);
+			    'pass' => data::prepareString(session::cryptPassword($demande->pass)),
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+    if(!$db->existe('membres','pass="'.session::cryptPassword($ancienPass).'" AND id='.$persoReal->id))
+		$db->update('membres', array('pass'=>'"'.session::cryptPassword($newPass).'"'), 'id='.$persoReal->id);
+			    'pass' => data::prepareString(session::cryptPassword($demande->pass)),
+			$tab['pass'] = '"'.session::cryptPassword($_POST['new_pass']).'"';
+			$pass = session::cryptPassword($pass);
+			$this->pass = session::cryptPassword($data->pass);
+	public static function cryptPassword($password)
+			$encryptedPassword = self::cryptPassword($password);
+			$db->update('membres', array('grade_site' => 0, 'pass' => '"'.session::cryptPassword($params['password']).'"', 'id_pj' => 'null'), 'id = '.$this->perso->id);
+	if($db->existe('membres','grade_site > '.ADMIN.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.ADMIN.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->existe('membres','grade_site > '.MJ.' AND nom="'.htmlspecialchars($_POST['login']).'" AND pass="'.session::cryptPassword($_POST['pass']).'"'))
+	if($db->update('membres', array('pass'=>'"'.session::cryptPassword($pass).'"'),'email= "'.htmlspecialchars($email).'" AND nom="'.htmlspecialchars($_POST['login']).'"'))
